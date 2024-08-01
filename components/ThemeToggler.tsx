@@ -8,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
+import { Button } from './ui/button';
 
 const ThemeToggler = () => {
   const { setTheme } = useTheme();
